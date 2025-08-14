@@ -39,7 +39,7 @@ client.on("message", async (message) => {
         client.sendMessage(message.from, stickerMedia, {
           sendMediaAsSticker: true,
           stickerName: "My Sticker",
-          stickerAuthor: "Bot do Gabriel",
+          stickerAuthor: "Bot do gaabrzx",
         });
       } catch (error) {
         console.error("Failed to process image:", error);
